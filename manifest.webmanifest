@@ -1,0 +1,23 @@
+{
+  "name": "Gov-Assist 정부지원사업 매칭",
+  "short_name": "Gov-Assist",
+  "description": "우리 회사에 맞는 정부지원사업을 찾고, 사업계획서와 서류를 준비합니다.",
+  "lang": "ko",
+  "id": "./",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6f9",
+  "theme_color": "#1a2f5c",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "공고 찾기", "short_name": "공고", "url": "./?source=app#v=biz", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "아이디어 북", "short_name": "아이디어", "url": "./?source=app#v=idea", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "일정", "short_name": "일정", "url": "./?source=app#v=cal", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
